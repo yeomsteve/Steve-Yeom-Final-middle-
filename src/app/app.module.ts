@@ -40,6 +40,7 @@ import { FngAccordionComponent } from './fng-accordion/fng-accordion.component';
 import { GraphicDesignComponent } from './graphic-design/graphic-design.component';
 import { PortfolioLightboxComponent } from './portfolio-lightbox/portfolio-lightbox.component';
 import { IndesignComponent } from './indesign/indesign.component';
+import { NeighborhoodComponent } from './neighborhood/neighborhood.component';
 
 @NgModule({
   imports: [
@@ -58,6 +59,7 @@ import { IndesignComponent } from './indesign/indesign.component';
       { path: 'shipping', component: ShippingComponent },
       { path: 'graphic', component: GraphicDesignComponent },
        { path: 'indesign', component: IndesignComponent },
+       { path: 'neighborhood', component: NeighborhoodComponent },
     ])
   ],
   declarations: [
@@ -71,7 +73,8 @@ import { IndesignComponent } from './indesign/indesign.component';
     FngAccordionComponent,
     GraphicDesignComponent,
     PortfolioLightboxComponent,
-    IndesignComponent
+    IndesignComponent,
+    NeighborhoodComponent
   ],
   bootstrap: [ AppComponent ],
   providers: [CartService]
